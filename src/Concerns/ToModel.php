@@ -10,5 +10,5 @@ interface ToModel
      * @param  array  $row
      * @return Model|Model[]|null
      */
-    public function model(array $row);
+    public function model(array $row, $additional);
 }
